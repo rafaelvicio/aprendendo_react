@@ -12,24 +12,4 @@
 
 <script src="https://unpkg.com/react@15/dist/react.js"></script>
 <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
-<script>
-    var minhaDiv =document.getElementById('app');
-
-    ReactDOM.render(
-        React.DOM.h1({id: 'meuTitulo'}, 'Hello React'),
-    minhaDiv)
-
-    var lista = [{valor: 10}, {valor: 20}, {valor: 30}]
-
-    ReactDOM.render(
-        <ul>
-        {
-            lista.map(item => {
-                return <li>{item.valor}</li>
-            })
-        }
-        </ul>,
-    minhaDiv)
-
-</script>
 </body>
